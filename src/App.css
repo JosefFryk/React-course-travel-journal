@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.header {
+display: flex;
+width: 550px;
+height: 55px;
+background: #F55A5A;
+justify-content: center;
+align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header h1 {
+  color: white;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  display: flex;
+  width: 471px;
+height: 168px;
+margin: 0 20px 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card img {
+width: 126px;
+height: 168px;
+border-radius: 5px;
+
+}
+
+.cardText {
+display: flex;
+flex-direction: column;
+width: 326px;
+height: 144px;
+margin-left: 20px;
+}
+.cardText p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.cardText h3 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+padding-left: 5px;
+
+color: #2B283A;
+
+}
+
+.cardText h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin: 5px 0 5px 0;
+}
+
+
+.cardText a {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+padding-left: 25px ;
+
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+
+.cardText span {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+}
+
+.firstRow {
+  display: flex;
+  align-items: center;
+
+}
+
+.cardsBody {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
